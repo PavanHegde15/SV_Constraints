@@ -1,4 +1,4 @@
-class parent;
+class once;
 rand bit[5:0] y[$];
 constraint 3_ones_count_4
 {
@@ -8,7 +8,7 @@ constraint 3_ones_count_4
 endclass
 
 module top();
-parent p;
+once p;
 initial
 begin
     p=new();
