@@ -1,4 +1,4 @@
-class parent;
+class pattern;
 
 rand bit[11:0] y[$];
 
@@ -24,7 +24,7 @@ y[i]==(i+1);
 
 endclass
 module top();
-parent p;
+pattern p;
 initial
 begin
     p=new();
