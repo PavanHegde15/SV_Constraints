@@ -1,4 +1,4 @@
-class upper_traingle;
+class upper_lower_traingle;
 
 rand bit [3:0]m[4][4];
 rand bit up;
@@ -25,7 +25,7 @@ constraint upper_lower_triangle_matrix
 endclass
 
 module top();
-upper_traingle p;
+upper_lower_traingle p;
 initial
 begin
     p=new();
