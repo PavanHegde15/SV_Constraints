@@ -1,7 +1,7 @@
 class ones;
  rand bit [31:0] data;
  constraint number_of_ones { 
-   $countones(data)==4;   
+  $countones(data)==4;
  }
 endclass
 module test;
